@@ -7,13 +7,11 @@ define('TEMPLATE_PATH', BASE_PATH . DIRECTORY_SEPARATOR . 'view' . DIRECTORY_SEP
 define('CONFIG_PATH', BASE_PATH . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR);
 
 // DB
-define('DB_HOST', 'ec2-79-125-2-142.eu-west-1.compute.amazonaws.com');
-define('DB_NAME', 'd88tp9kb9fssp3');
-define('DB_USER', 'yprlawxccbmsle');
-define('DB_PASS', '1cff1f67292d2e4248be52abc25fa9853ca8e34de9ee951914ff755ceba744d8');
-define('DB_PORT', '5432');
-define('DB_URI', 'postgres://yprlawxccbmsle:1cff1f67292d2e4248be52abc25fa9853ca8e34de9ee951914ff755ceba744d8@ec2-79-125-2-142.eu-west-1.compute.amazonaws.com:5432/d88tp9kb9fssp3');
-define('DB_HEROKU_CLI', 'heroku pg:psql postgresql-cubic-11634 --app ubytest');
+define('DB_HOST', 'eu-cdbr-west-02.cleardb.net');
+define('DB_NAME', 'heroku_8463be4e64122bf');
+define('DB_USER', 'bf421ffcc254ec');
+define('DB_PASS', '4ff4c4e4');
+define('DB_PORT', '3306');
 
 // Messages
 define('MSG_ERROR', 'danger');
