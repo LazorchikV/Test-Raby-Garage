@@ -3,9 +3,6 @@ use Core\Router;
 
 require_once '../app/bootstrap.php';
 
-Router::route();
-
-
 $app = new Silex\Application();
 $app['debug'] = true;
 
