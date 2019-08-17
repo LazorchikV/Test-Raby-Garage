@@ -6,7 +6,7 @@ define('LAYOUT_PATH', BASE_PATH . DIRECTORY_SEPARATOR . 'view' . DIRECTORY_SEPAR
 define('TEMPLATE_PATH', BASE_PATH . DIRECTORY_SEPARATOR . 'view' . DIRECTORY_SEPARATOR . 'templates' . DIRECTORY_SEPARATOR);
 define('CONFIG_PATH', BASE_PATH . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR);
 
-// Local DB
+// DB
 define('DB_HOST', 'ec2-79-125-2-142.eu-west-1.compute.amazonaws.com');
 define('DB_NAME', 'd88tp9kb9fssp3');
 define('DB_USER', 'yprlawxccbmsle');
