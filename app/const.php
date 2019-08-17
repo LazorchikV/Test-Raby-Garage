@@ -11,7 +11,6 @@ define('DB_HOST', 'eu-cdbr-west-02.cleardb.net');
 define('DB_NAME', 'heroku_8463be4e64122bf');
 define('DB_USER', 'bf421ffcc254ec');
 define('DB_PASS', '4ff4c4e4');
-define('DB_PORT', '3306');
 
 // Messages
 define('MSG_ERROR', 'danger');
