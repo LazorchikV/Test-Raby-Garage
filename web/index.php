@@ -23,8 +23,3 @@ $app->get('/', function() use($app) {
 });
 
 $app->run();
-use Core\Router;
-
-require_once '../app/bootstrap.php';
-
-Router::route();
