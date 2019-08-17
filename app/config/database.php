@@ -1,15 +1,5 @@
-
 <?php
-$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-
-$server = $url["host"];
-$user = $url["user"];
-$pass = $url["pass"];
-$db = substr($url["path"], 1);
-
-$conn = new mysqli($server, $user, $pass, $db);
-
-/*if (strpos($_SERVER['SERVER_NAME'], 'herokuapp') !== false) {
+if (strpos($_SERVER['SERVER_NAME'], 'herokuapp') !== false) {
     $url = parse_url(getenv(CLEARDB_DATABASE_URL=>mysql://bf421ffcc254ec:4ff4c4e4@eu-cdbr-west-02.cleardb.net/heroku_8463be4e64122bf?reconnect=true));
 	/*"CLEARDB_DATABASE_URL"));
     $host = $url["host"];
