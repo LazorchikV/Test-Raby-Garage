@@ -1,17 +1,16 @@
 {
+    "name": "php5.5.6/test",
+    "description": "testofrubygarage",
+    "type": "composer.json",
+    "authors": [
+        {
+            "name": "Vitaly Lazorchik",
+            "email": "lazorchik29081989@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
     "require": {
         "nikic/fast-route": "^1.2",
-        "ext-mysql": "*"
-    },
-
-    "autoload": {
-        "psr-4": {
-            "Controller\\": "controller/",
-            "Model\\" : "model/",
-            "Core\\" : "core/",
-            "Libs\\" : "libs/"
-        }
-    }
+        "ext-mysql": "*",
+        "ext-Reflection": "^0.0.0"}
 }
-
-

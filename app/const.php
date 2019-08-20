@@ -7,10 +7,10 @@ define('TEMPLATE_PATH', BASE_PATH . DIRECTORY_SEPARATOR . 'view' . DIRECTORY_SEP
 define('CONFIG_PATH', BASE_PATH . DIRECTORY_SEPARATOR . 'app' . DIRECTORY_SEPARATOR . 'config' . DIRECTORY_SEPARATOR);
 
 // DB
-define('DB_HOST', 'eu-cdbr-west-02.cleardb.net');
-define('DB_NAME', 'heroku_8463be4e64122bf');
-define('DB_USER', 'bf421ffcc254ec');
-define('DB_PASS', '4ff4c4e4');
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'test');
+define('DB_USER', 'root');
+define('DB_PASS', '');
 
 // Messages
 define('MSG_ERROR', 'danger');
